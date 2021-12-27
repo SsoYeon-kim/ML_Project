@@ -34,8 +34,10 @@
    
 ## 3. 입력 가공   
    
-20000 × 100 array인 입력 데이터를 실수와 허수로 나누어 준 후 이를 1 × 2000000 array로 만들어 주었다. 그 후 column_stack을 이용해 아래와 같은 2000000 × 2 array으로 바꾼 후 실수와 허수가 번갈아가도록 펼쳐준 후 reshape을 통해 3차원으로 만들어 주었다. 
+20000 × 100 array인 입력 데이터를 실수와 허수로 나누어 준 후 이를 1 × 2000000 array로 만들어 주었다. 그 후 column_stack을 이용해 아래와 같은 2000000 × 2 array으로 바꾼 후 실수와 허수가 번갈아가도록 펼쳐준 후 reshape을 통해 3차원으로 만들어 주었다.    
+   
 <img src = "https://user-images.githubusercontent.com/62587484/147488942-494958ef-d190-44b2-b6e3-e062f381c947.jpg" width = 50%><img src = "https://user-images.githubusercontent.com/62587484/147489078-8f03da65-1bd3-4045-afbd-68af13bf2398.jpg" width = 50%> 
      
-따라서 데이터의 첫 번째를 비교해보았을 때 j를 제외하고 실수와 허수가 번갈아가며 존재하는 입력데이터를 사용했다.   
+따라서 데이터의 첫 번째를 비교해보았을 때 j를 제외하고 실수와 허수가 번갈아가며 존재하는 입력데이터를 사용했다.  
+   
 <img src = "https://user-images.githubusercontent.com/62587484/147489110-5f2ca100-b819-49e9-939e-1b52233c3741.jpg" width = 50%>  
