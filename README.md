@@ -48,7 +48,7 @@
     
 <img src = "https://user-images.githubusercontent.com/62587484/147489986-dd3db55f-4cd0-4a67-80b2-a2bf95984c97.jpg" width = 60%> 
    
-따라서 아래와 같은 모델의 구조를 만들었다. 오른쪽 사진은 epoch 1000을 돌렸을 때의 그래프이다.   
+따라서 아래와 같은 모델의 구조를 만들었다. 오른쪽 사진은 epoch 1000을 돌렸을 때 그래프이다.   
    
 <img src = "https://user-images.githubusercontent.com/62587484/147490111-4706e2a4-31d2-4f14-8b90-c5a23377ed52.jpg" width = 60%> 
     
